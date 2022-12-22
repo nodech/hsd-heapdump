@@ -1,0 +1,28 @@
+{
+  "name": "hsd-heapdump",
+  "version": "0.0.0",
+  "description": "Dump v8 heap via hsd node/wallet HTTP apis.",
+  "main": "lib/heapdump.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodech/hsd-heapdump.git"
+  },
+  "keywords": [
+    "heapdump"
+  ],
+  "author": "Nodari Chkuaselidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodech/hsd-heapdump/issues"
+  },
+  "homepage": "https://github.com/nodech/hsd-heapdump#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "bval": "^0.1.6"
+  }
+}
